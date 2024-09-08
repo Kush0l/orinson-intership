@@ -1,0 +1,100 @@
+body {
+  font-family: "Nerko One", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.main-container {
+  /* background-color:black; */
+  background-image: url("assets/img1.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.logo {
+  border-radius: 50%;
+}
+
+.nav-link {
+  color: black;
+  margin-left: 20px;
+}
+.navbar {
+  background-color: yellow;
+}
+
+#img-1 {
+  border: solid yellow 2.5px;
+  border-radius: 50%;
+  margin: auto;
+  padding: 5px;
+}
+.main-1 {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding: 100px 150px;
+}
+
+#main-headline {
+  color: rgb(0, 0, 0);
+}
+
+.main-1-2 {
+  display: flex;
+  align-items: center;
+}
+.main1-2-con {
+  background-color: rgba(253, 253, 154, 0.676);
+  margin: 20px;
+  padding: 10px;
+  border-radius: 10px;
+}
+.main-1-1 {
+  margin-top: 20px;
+}
+
+.main-2 {
+  background-color: yellow;
+}
+
+.main-2-1-con {
+  display: flex;
+  align-items: center;
+  padding: 30px;
+  font-size: larger;
+}
+
+.main-2-1-con-img {
+  margin: 10px;
+  border: solid black;
+  border-radius: 15px;
+  overflow: hidden;
+}
+
+#img-earth {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  animation: rotate 10s linear infinite;
+}
+
+@keyframes rotate {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.main-3 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: x-large;
+  padding: 100px;
+  background-color: pink;
+  color: black;
+}
