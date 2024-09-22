@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Document</title>
+  <!-- <script src="https://cdn.tailwindcss.com"></script> -->
+
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      padding: 0;
+    }
+
+    :root {
+      --bg-1: #292f36;
+      --bg-2: #1a1e23;
+      --txt-1: #12f7d6;
+      --txt-2: #98faec;
+      --txt-3: #ffffff;
+      --txt-4: black;
+    }
+
+    .txt-1 {
+      color: var(--txt-1);
+    }
+
+    .txt-2 {
+      color: var(--txt-2);
+    }
+
+    .txt-3 {
+      color: var(--txt-3);
+    }
+
+    .txt-4 {
+      color: var(--txt-4)
+    }
+
+    #main-1 {
+      margin: 0px;
+      background-color: var(--bg-1);
+    }
+
+    .nav-head {
+      font-size: x-large;
+      font-weight: 500;
+    }
+
+    nav,
+    #social-nav {
+      display: flex;
+      justify-content: space-around;
+      padding-top: 5px;
+    }
+
+    nav a,
+    .hide-a {
+      text-decoration: none;
+      margin-left: 15px;
+    }
+
+    .hide-decoration {
+      text-decoration: none;
+
+
+    }
+
+    .nav-items {
+      font-size: 16px;
+      font-weight: 100;
+    }
+
+    #nav-bar {
+      display: flex;
+      justify-content: space-around;
+      padding: 30px 0px 30px 0px;
+      border-bottom: 0.01px solid var(--txt-2);
+      margin: 0px 50px 50px 50px;
+    }
+
+    .hide-a img {
+      margin-right: 5px;
+    }
+
+    .social {
+      display: flex;
+    }
+
+    .social-items {
+      margin: 0px 15px 0px 5px;
+
+    }
+
+    .heading {
+      font-size: 34px;
+      padding-left: 10px;
+    }
+
+    .s-heading {
+      font-size: 20px;
+      text-align: center;
+      margin: 20px 0px 10px 0px;
+      color: var(--txt-2);
+    }
+
+    .btn {
+      background-color: var(--txt-3);
+      padding: 7px;
+      border-radius: 10px;
+
+    }
+
+    .pad {
+      padding-left: 30px;
+    }
+
+    .p-small {
+      font-size: 16px;
+      font-weight: 50;
+    }
+
+    .name {
+      text-align: center;
+      margin-bottom: 20px;
+    }
+
+    #main-2 {
+      padding-bottom: 90px;
+    }
+
+    .main-2-1 {
+      display: flex;
+      justify-content: space-around;
+      margin: 0% 10%;
+    }
+
+    .main-2-item {
+      margin-bottom: 9px;
+    }
+
+
+    #main-2-1-1 {
+      border: 2px solid var(--txt-3);
+      border-left: 9px solid var(--txt-3);
+      border-right: 9px solid var(--txt-3);
+      padding: 20px;
+      padding-right: 40px;
+      margin-right: 20px;
+      border-top-left-radius: 100px;
+      border-bottom-right-radius: 100px;
+    }
+
+    #profile-img {
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      padding: 2px;
+      border: 0.5px solid var(--txt-1);
+      border-radius: 50%;
+      margin-bottom: 10px;
+    }
+
+    .skills {
+      display: flex;
+      justify-content: space-around;
+      flex-wrap: wrap;
+      margin-bottom: 40px;
+
+    }
+
+    .skill {
+      padding: 2px;
+      background-color: var(--bg-2);
+      margin: 2px;
+      border: 1px solid var(--txt-2);
+      border-radius: 5px;
+    }
+
+    .main-2-1-2 {
+      margin-top: 120px;
+    }
+
+    .cv {
+
+      text-align: center;
+
+
+
+    }
+  </style>
+</head>
+
+<body>
+  <div id="main-1">
+    <div id="nav-bar">
+      <h2 class="txt-2 nav-head">Kushal</h2>
+      <nav>
+        <a class="txt-1 nav-items" href="">Home</a>
+        <a class="txt-1 nav-items" href="">Projects</a>
+      </nav>
+
+      <div id="social-nav">
+        <div class="social-items">
+          <a class="txt-1 hide-a social" href="">
+            <img src="./assets/linkedin.png" alt="linkedin" width="16" />
+            <p>Linkedin</p>
+          </a>
+        </div>
+        <div class="social-items">
+          <a class="txt-1 hide-a social" href=""><img src="./assets/github.png" alt="github" width="16" />
+            <p>Github</p>
+          </a>
+        </div>
+        <div class="social-items">
+          <a class="txt-1 hide-a social" href=""><img src="./assets/twitter.png" alt="twitter" width="16" height="16" />
+            <p>Twitter</p>
+          </a>
+        </div>
+        <div class="social-items">
+          <a class="txt-1 hide-a social" href=""><img src="./assets/cv.png" alt="resume" width="16" />
+            <p>Resume</p>
+          </a>
+        </div>
+      </div>
+    </div>
+    <div id="main-2">
+      <div class="main-2-1">
+
+
+        <div id="main-2-1-1">
+          <img id="profile-img" src="./assets/ironman.png" alt="" width="100">
+          <div>
+            <p class="name  txt-3">Kushal</p>
+          </div>
+
+          <div class="social-items main-2-item">
+            <a class="txt-1 hide-a social " href="">
+              <img src="./assets/linkedin.png" alt="linkedin" width="16" />
+              <p>Linkedin</p>
+            </a>
+          </div>
+          <div class="social-items main-2-item">
+            <a class="txt-1 hide-a social" href="mailto:kushalr.dev@gmail.com">
+              <img src="./assets/mail.png" alt="mail" width="16" />
+              <p>kushalr.dev@gmail.com</p>
+            </a>
+          </div>
+          <div class="social-items main-2-item">
+            <a class="txt-1 hide-a social" href="">
+              <img src="./assets/github.png" alt="mail" width="16" />
+              <p>kush0l</p>
+            </a>
+          </div>
+
+          <div>
+            <p class="s-heading">Languages & Frameworks</p>
+            <div class="skills txt-1 p-small">
+              <p class="skill">Java</p>
+              <p class="skill">JavaScript</p>
+              <p class="skill">React</p>
+              <p class="skill">Express</p>
+
+            </div>
+
+            <p class="s-heading">Skills</p>
+
+            <div class="skills txt-1 p-small">
+              <p class="skill">Web Development</p>
+              <p class="skill">DSA</p>
+              <p class="skill">Generative AI</p>
+            </div>
+            <div class="cv">
+
+              <a class="hide-decoration txt-4 btn " href=""><span>Download/View CV</span></a>
+            </div>
+
+          </div>
+
+        </div>
+
+        <div class="txt-3 main-2-1-2">
+          <div>
+            <p class="txt-1 p-small"> &lt;h1&gt; </p>
+            <p class="txt-3 heading pad">Hey, I'm<span class="txt-1"> Kushal</span></p>
+            <p class="txt-1 p-small"> &lt;/h1&gt; </p>
+          </div>
+          <div style="margin-top: 30px;">
+            <p class="txt-1 p-small"> &lt;p&gt; </p>
+            <p class="txt-1 p-small pad">I'm <span class="txt-3">Kushal R</span>, passionate about exploring and
+              understanding new technologies. <br>I am seeking an internship
+              and Job opportunity to enhance my knowledge and skills.</p>
+            <p class="txt-1 p-small"> &lt;/p&gt; </p>
+          </div>
+          <br><br>
+          <p class="txt-1 p-small"> &lt;a&gt; </p>
+          <span>
+          <a class="txt-1 hide-a social" href="mailto:kushalr.dev@gmail.com">
+            <p class="heading">Let's Talk</p>
+
+            <img style="margin: 6px 20px;  " src="./assets/mail.png" alt="mail" width="30" height="30" />
+          </a>
+        </span>
+          <p class="txt-1 p-small"> &lt;/a&gt; </p>
+
+
+
+        </div>
+
+</body>
+
+</html>
